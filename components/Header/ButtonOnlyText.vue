@@ -1,5 +1,5 @@
 <template>
-    <div class="button-only-text">Login</div>
+    <a href="#" class="button-only-text absolute">Login</a>
 </template>
 
 <style>
@@ -9,7 +9,6 @@
         left: 304px;
         width: 39px;
         height: 19px;
-        position: absolute;
 
         /* UI Properties */
         text-align: left;

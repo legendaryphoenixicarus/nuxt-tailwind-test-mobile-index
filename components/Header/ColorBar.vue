@@ -1,5 +1,5 @@
 <template>
-  <div class="color-bar"></div>
+  <div class="color-bar fixed z-10"></div>
 </template>
 
 <style>

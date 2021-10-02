@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <Background1 />
-  </div>
+  <ArtBoard />
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>

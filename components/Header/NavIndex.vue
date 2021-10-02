@@ -1,5 +1,5 @@
 <template>
-  <div class="nav-index">
+  <div class="nav-index fixed z-10">
     <ButtonOnlyText />
   </div>
 </template>
@@ -11,7 +11,6 @@
     left: 0px;
     width: 360px;
     height: 67px;
-    position: absolute;
 
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
