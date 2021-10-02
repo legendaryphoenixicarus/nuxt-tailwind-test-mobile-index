@@ -2,6 +2,9 @@
     <div class="background-1">
         <ColorBar />
         <NavIndex />
+        <span class="heading-text">Deine Job website</span>
+        <div class="undraw-agreement"></div>
+        <ButtonNavBg />
     </div>
 </template>
 
@@ -15,6 +18,35 @@
 
         /* UI Properties */
         background: transparent linear-gradient(141deg, #EBF4FF 0%, #E6FFFA 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .heading-text {
+        /* Layout Properties */
+        top: 90px;
+        left: 20px;
+        width: 320px;
+        height: 113px;
+        position: absolute;
+
+        /* UI Properties */
+        text-align: center;
+        font: normal normal normal 42px/50px Lato;
+        letter-spacing: 1.26px;
+        color: #2D3748;
+        opacity: 1;
+    }
+
+    .undraw-agreement {
+        /* Layout Properties */
+        top: 192px;
+        left: -12px;
+        width: 418px;
+        height: 405px;
+        position: absolute;
+
+        /* UI Properties */
+        background: transparent url('./assets/img/undraw_agreement_aajr.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 </style>

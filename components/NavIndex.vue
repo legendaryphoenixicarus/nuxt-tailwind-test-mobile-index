@@ -11,6 +11,7 @@
     left: 0px;
     width: 360px;
     height: 67px;
+    position: absolute;
 
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
