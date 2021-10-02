@@ -1,7 +1,6 @@
 <template>
   <div>
-    <ColorBar />
-    <NavIndex />
+    <Background1 />
   </div>
 </template>
 

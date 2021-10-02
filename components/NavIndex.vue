@@ -1,5 +1,6 @@
 <template>
   <div class="nav-index">
+    <ButtonOnlyText />
   </div>
 
 </template>
