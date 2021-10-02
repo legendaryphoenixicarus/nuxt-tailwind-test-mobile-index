@@ -2,13 +2,13 @@
     <div class="tab-controls">
         <nav class="tabs">
             <button data-target="panel-1" id="tab-1" class="tab active absolute">
-                <span id="tab-label-1">Arbeitnehmer</span>
+                Arbeitnehmer
             </button>
             <button data-target="panel-2" id="tab-2" class="tab absolute">
-                <span id="tab-label-2">Arbeitnehmer</span>
+                Arbeitgeber
             </button>
             <button data-target="panel-3" id="tab-3" class="tab absolute">
-                <span id="tab-label-3">Arbeitnehmer</span>
+                Temporärbüro
             </button>
         </nav>
     </div>
@@ -38,15 +38,13 @@
     }
 
     #tab-3 {
-        top: 723px;
+        top: 711px;
         left: 260px;
-        width: 98px;
-        height: 17px;
-        text-align: center;
+        width: 160px;
+        height: 40px;
 
-        font: normal normal bold 14px/17px Lato;
-        letter-spacing: 0.84px;
-        color: #E6FFFA;
-        opacity: 1;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #CBD5E0;
+        opacity: 0;
     }
 </style>
