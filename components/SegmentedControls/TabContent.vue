@@ -7,6 +7,9 @@
                 <p class="text-1 absolute">1.</p>
                 <span class="sub-text absolute">Erstellen dein Lebenslauf</span>
             </div>
+            <div class="group-2 absolute">
+
+            </div>
         </div>
         <div class="panel-2 tab-content">
             <span class="tab-panel-header absolute">Drei einfache Schritte zu deinem neuen Mitarbeiter</span>
@@ -81,6 +84,15 @@
         font: normal normal normal 16px/19px Lato;
         letter-spacing: 0.47px;
         color: #718096;
+        opacity: 1;
+    }
+
+    .group-2 {
+        top: 1088px;
+        /* left: -63.47837829589844px; */
+        width: 520px;
+        height: 370px;
+        background: transparent linear-gradient(134deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 </style>
