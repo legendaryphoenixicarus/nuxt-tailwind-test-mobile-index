@@ -2,8 +2,8 @@
   <div class="nav-index">
     <ButtonOnlyText />
   </div>
-
 </template>
+
 <style>
   .nav-index {
     /* Layout Properties */

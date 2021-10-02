@@ -9,6 +9,7 @@
         left: 304px;
         width: 39px;
         height: 19px;
+        position: absolute;
 
         /* UI Properties */
         text-align: left;
