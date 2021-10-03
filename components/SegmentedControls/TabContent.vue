@@ -154,7 +154,7 @@
         left: 100.44px;
         width: 220px;
         height: 145px;
-        background: transparent url('./assets/img/undraw_Profile_data_re_v81r.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_Profile_data_re_v81r.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
@@ -189,7 +189,7 @@
         left: 112.26px;
         width: 181px;
         height: 127px;
-        background: transparent url('./assets/img/undraw_task_31wc.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_task_31wc.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
@@ -198,7 +198,7 @@
         left: 58.52px;
         width: 259px;
         height: 179px;
-        background: transparent url('./assets/img/undraw_about_me_wa29.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_about_me_wa29.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
@@ -207,7 +207,7 @@
         left: 102.32px;
         width: 218px;
         height: 148px;
-        background: transparent url('./assets/img/undraw_job_offers_kw5d.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_job_offers_kw5d.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
@@ -241,7 +241,7 @@
         left: 18px;
         width: 281px;
         height: 210px;
-        background: transparent url('./assets/img/undraw_personal_file_222m.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_personal_file_222m.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
@@ -250,7 +250,7 @@
         left: 5.6px;
         width: 240px;
         height: 197px;
-        background: transparent url('./assets/img/undraw_swipe_profiles1_i6mr.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_swipe_profiles1_i6mr.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
@@ -259,7 +259,7 @@
         left: 1px;
         width: 250px;
         height: 190px;
-        background: transparent url('./assets/img/undraw_business_deal_cpi9.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('~assets/img/undraw_business_deal_cpi9.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 
