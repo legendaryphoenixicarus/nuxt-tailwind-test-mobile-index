@@ -1,57 +1,57 @@
 <template>
-    <div id="panels">
-        <div class="panel-1 tab-content active">
+    <div id="panels relative">
+        <div class="panel-1 tab-content relative active">
             <span class="tab-panel-header absolute">Drei einfache Schritte zu deinem neuen Job</span>
-            <div class="group-1 absolute">
-                <div class="image absolute"></div>
-                <p class="text-1 absolute">1.</p>
+            <div class="group-1 relative">
+                <div class="image relative"></div>
+                <span class="text text-1 absolute">1.</span>
                 <span class="sub-text absolute">Erstellen dein Lebenslauf</span>
             </div>
             <div class="group-2 absolute">
-                <p class="text-2 absolute">2.</p>
+                <span class="text text-2 absolute">2.</span>
                 <span class="sub-text absolute">Erstellen dein Lebenslauf</span>
-                <div class="image absolute"></div>
+                <div class="image relative"></div>
             </div>
             <div class="group-3 absolute">
-                <p class="text-3 absolute">3.</p>
+                <span class="text text-3 absolute">3.</span>
                 <span class="sub-text absolute">Mit nur einem Klick bewerben</span>
-                <div class="image absolute"></div>
+                <div class="image relative"></div>
             </div>
         </div>
         <div class="panel-2 tab-content">
             <span class="tab-panel-header absolute">Drei einfache Schritte zu deinem neuen Mitarbeiter</span>
-            <div class="group-1 absolute">
-                <div class="image absolute"></div>
-                <p class="text-1 absolute">1.</p>
+            <div class="group-1 relative">
+                <div class="image relative"></div>
+                <span class="text text-1 absolute">1.</span>
                 <span class="sub-text absolute">Erstellen dein Unternehmensprofil</span>
             </div>
-            <div class="group-2 absolute">
-                <p class="text-2 absolute">2.</p>
+            <div class="group-2 relative">
+                <span class="text text-2 absolute">2.</span>
                 <span class="sub-text absolute">Erstellen ein Jobinserat</span>
-                <div class="image absolute"></div>
+                <div class="image relative"></div>
             </div>
-            <div class="group-3 absolute">
-                <p class="text-3 absolute">3.</p>
+            <div class="group-3 relative">
+                <span class="text text-3 absolute">3.</span>
                 <span class="sub-text absolute">Wähle deinen neuen Mitarbeiter aus</span>
-                <div class="image absolute"></div>
+                <div class="image relative"></div>
             </div>
         </div>
         <div class="panel-3 tab-content">
             <span class="tab-panel-header absolute">Drei einfache Schritte zur Vermittlung neuer Mitarbeiter</span>
-            <div class="group-1 absolute">
-                <div class="image absolute"></div>
-                <p class="text-1 absolute">1.</p>
+            <div class="group-1 relative">
+                <div class="image relative"></div>
+                <span class="text text-1 absolute">1.</span>
                 <span class="sub-text absolute">Erstellen dein Unternehmensprofil</span>
             </div>
-            <div class="group-2 absolute">
-                <p class="text-2 absolute">2.</p>
+            <div class="group-2 relative">
+                <span class="text text-2 absolute">2.</span>
                 <span class="sub-text absolute">Erhalte Vermittlungs- angebot von Arbeitgeber</span>
-                <div class="image absolute"></div>
+                <div class="image relative"></div>
             </div>
-            <div class="group-3 absolute">
-                <p class="text-3 absolute">3.</p>
+            <div class="group-3 relative">
+                <span class="text text-3 absolute">3.</span>
                 <span class="sub-text absolute">Vermittlung nach Provision oder Stundenlohn</span>
-                <div class="image absolute"></div>
+                <div class="image relative"></div>
             </div>
         </div>
         <div class="circle-1 z-20"></div>
@@ -60,8 +60,15 @@
 </template>
 
 <style>
+    #panels {
+        top: 781px;
+        width: 360px;
+        height: 956px;
+        opacity: 1;
+    }
+
     #panels > .circle-1 {
-        position: absolute;
+        position: relative;
         top: 908px;
         left: -34px;
         width: 208px;
@@ -72,7 +79,7 @@
     }
 
     #panels > .circle-3 {
-        position: absolute;
+        position: relative;
         top: 1410px;
         left: -54px;
         width: 304px;
@@ -83,9 +90,8 @@
     }
 
     .tab-content {
+        position: relative;
         display: none;
-        /* top: 781px; */
-        /* left: -63.47837829589844px; */
         width: 360px;
         height: 956px;
         opacity: 1;
@@ -95,7 +101,7 @@
         display: block;
     }
 
-    .tab-content p {
+    .tab-content .text {
         width: 106px;
         height: 156px;
         text-align: center;
@@ -123,7 +129,7 @@
     }
 
     .tab-panel-header {
-        top: 781px;
+        /* top: 781px; */
         left: 40px;
         width: 280px;
         height: 50px;
@@ -136,7 +142,7 @@
 
     /************************* Group 1 ***********************************/
     .group-1 {
-        top: 851px;
+        top: 70.06px;
         /* left: -34px; */
         width: 354px;
         height: 265px;
@@ -165,7 +171,7 @@
 
     /************************* Group 2 ***********************************/
     .group-2 {
-        top: 1088px;
+        top: 307.06px;
         /* left: -63.47837829589844px; */
         width: 360px;
         height: 370px;
@@ -214,7 +220,7 @@
 
     /************************* Group 3 ***********************************/
     .group-3 {
-        top: 1410px;
+        top: 629px;
         left: 54px;
         width: 299px;
         height: 327px;

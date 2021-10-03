@@ -1,5 +1,5 @@
 <template>
-    <div class="button-only-text absolute">Login</div>
+    <div class="button-only-text relative">Login</div>
 </template>
 
 <style>
@@ -12,7 +12,7 @@
 
         /* UI Properties */
         text-align: left;
-        font: normal normal 600 14px/17px 'Lato Semibold';
+        font: normal normal 600 13px/17px 'Lato';
         letter-spacing: 0.84px;
         color: #319795;
         opacity: 1;

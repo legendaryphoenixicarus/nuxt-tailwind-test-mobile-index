@@ -1,7 +1,7 @@
 <template>
     <div class="background">
         <span class="heading-text absolute">Deine Job website</span>
-        <div class="undraw-agreement absolute"></div>
+        <div class="undraw-agreement relative"></div>
     </div>
 </template>
 
@@ -27,7 +27,7 @@
 
         /* UI Properties */
         text-align: center;
-        font: normal normal 500 42px/50px 'Lato Medium';
+        font: normal normal 500 42px/50px 'Lato';
         letter-spacing: 1.26px;
         color: #2D3748;
         opacity: 1;
