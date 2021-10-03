@@ -1,6 +1,6 @@
 <template>
-    <div id="panels relative">
-        <div class="panel-1 tab-content relative active">
+    <div id="panels" class="relative">
+        <div class="panel-1 tab-content active">
             <span class="tab-panel-header absolute">Drei einfache Schritte zu deinem neuen Job</span>
             <div class="group-1 relative">
                 <div class="image relative"></div>
@@ -18,37 +18,37 @@
                 <div class="image relative"></div>
             </div>
         </div>
-        <div class="panel-2 tab-content">
+        <div class="panel-2 tab-content relative">
             <span class="tab-panel-header absolute">Drei einfache Schritte zu deinem neuen Mitarbeiter</span>
             <div class="group-1 relative">
                 <div class="image relative"></div>
                 <span class="text text-1 absolute">1.</span>
                 <span class="sub-text absolute">Erstellen dein Unternehmensprofil</span>
             </div>
-            <div class="group-2 relative">
+            <div class="group-2 absolute">
                 <span class="text text-2 absolute">2.</span>
                 <span class="sub-text absolute">Erstellen ein Jobinserat</span>
                 <div class="image relative"></div>
             </div>
-            <div class="group-3 relative">
+            <div class="group-3 absolute">
                 <span class="text text-3 absolute">3.</span>
                 <span class="sub-text absolute">Wähle deinen neuen Mitarbeiter aus</span>
                 <div class="image relative"></div>
             </div>
         </div>
-        <div class="panel-3 tab-content">
+        <div class="panel-3 tab-content relative">
             <span class="tab-panel-header absolute">Drei einfache Schritte zur Vermittlung neuer Mitarbeiter</span>
             <div class="group-1 relative">
                 <div class="image relative"></div>
                 <span class="text text-1 absolute">1.</span>
                 <span class="sub-text absolute">Erstellen dein Unternehmensprofil</span>
             </div>
-            <div class="group-2 relative">
+            <div class="group-2 absolute">
                 <span class="text text-2 absolute">2.</span>
                 <span class="sub-text absolute">Erhalte Vermittlungs- angebot von Arbeitgeber</span>
                 <div class="image relative"></div>
             </div>
-            <div class="group-3 relative">
+            <div class="group-3 absolute">
                 <span class="text text-3 absolute">3.</span>
                 <span class="sub-text absolute">Vermittlung nach Provision oder Stundenlohn</span>
                 <div class="image relative"></div>
@@ -61,15 +61,15 @@
 
 <style>
     #panels {
-        top: 781px;
+        /* top: 781px; */
         width: 360px;
         height: 956px;
         opacity: 1;
     }
 
     #panels > .circle-1 {
-        position: relative;
-        top: 908px;
+        position: absolute;
+        top: 127px;
         left: -34px;
         width: 208px;
         height: 208px;
@@ -79,8 +79,8 @@
     }
 
     #panels > .circle-3 {
-        position: relative;
-        top: 1410px;
+        position: absolute;
+        top: 629px;
         left: -54px;
         width: 304px;
         height: 303px;
@@ -252,11 +252,6 @@
         height: 190px;
         background: transparent url('./assets/img/undraw_business_deal_cpi9.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
-    }
-
-    .text-3 {
-        /* top: 1410px; */
-        /* left: 54px; */
     }
 
     .group-3 > .sub-text {

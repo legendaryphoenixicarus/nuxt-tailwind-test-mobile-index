@@ -1,7 +1,7 @@
 <template>
     <div class="background">
         <span class="heading-text absolute">Deine Job website</span>
-        <div class="undraw-agreement relative"></div>
+        <div class="undraw-agreement curved-div relative"></div>
     </div>
 </template>
 

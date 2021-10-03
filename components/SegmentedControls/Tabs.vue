@@ -18,15 +18,31 @@
     .tab-controls {
         /* top: 706px; */
         width: 360px;
-        height: 90px;;
+        height: 121px;
     }
 
     .tabs {
-        top: 27px;
+        top: 51.63px;
         left: 20px;
         width: 480px;
         height: 40px;
     }
+
+    .horizTranslate-1 {
+        left: 20px;
+        transition: 0.5s;
+    }
+
+    .horizTranslate-2 {
+        left: -60.25px;
+        transition: 0.5s;
+    }
+
+    .horizTranslate-3 {
+        left: -140.5px;
+        transition: 0.5s;
+    }
+
 
     .tab.active {
         background: #81E6D9 0% 0% no-repeat padding-box;

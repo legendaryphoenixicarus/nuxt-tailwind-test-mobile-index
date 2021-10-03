@@ -1,5 +1,5 @@
 <template>
-    <div class="button-only-text relative">Login</div>
+    <button class="button-only-text absolute">Login</button>
 </template>
 
 <style>

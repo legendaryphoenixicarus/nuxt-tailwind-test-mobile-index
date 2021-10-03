@@ -8,7 +8,7 @@
 <style>
     .segment-controls {
         width: 360px;
-        height: 1055px;
+        height: 1079px;
     }
 </style>
 
@@ -30,25 +30,47 @@
                     panel[i].classList.remove("active");
                 }
 
+                // get event target
+                let target = event.target;
 
                 // activate new tabs and panel
                 let classString = event.target.getAttribute('data-target');
 
                 if (classString === null) {
-                    event.target.parentElement.classList.add('active');
-                    classString = event.target.parentElement.getAttribute('data-target');
-                } else {
-                    event.target.classList.add('active');
+                    target = target.parentElement;
+
+                    classString = target.getAttribute('data-target');
                 }
 
+                target.classList.add('active');
                 
                 console.log(classString);
                 console.log(document.getElementById('panels'));
+
                 document.getElementById('panels').getElementsByClassName(classString)[0].classList.add("active");
+
+                // move tabs to the left or right.
+                let targetId = target.getAttribute('id');
+                // let shiftLeft = 20;
+
+                tabs[0].classList.remove('horizTranslate-1', 'horizTranslate-2', 'horizTranslate-3');
+
+                if (targetId === 'tab-1') {
+                    tabs[0].classList.add('horizTranslate-1');
+                    // shiftLeft = '20px';
+                } else if (targetId === 'tab-2') {
+                    tabs[0].classList.add('horizTranslate-2');
+                    // shiftLeft = '-60.25px';
+                } else if (targetId === 'tab-3') {
+                    tabs[0].classList.add('horizTranslate-3');
+                    // shiftLeft = '-140.5px';
+                }
+
+                // tabs[0].style.left = shiftLeft;
             }
 
             for (let i = 0; i < tab.length; i++) {
-                tab[i].addEventListener('click', onTabClick, false);
+                tab[i].addEventListener('click', onTabClick, true);
             }
         }
     }
