@@ -41,7 +41,7 @@
         height: 405px;
 
         /* UI Properties */
-        background: transparent url('~assets/img/undraw_agreement_aajr.svg') 0% 0% no-repeat padding-box;
+        background: transparent url('/img/undraw_agreement_aajr.svg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
 </style>
