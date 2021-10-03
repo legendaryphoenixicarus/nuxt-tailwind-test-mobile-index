@@ -118,7 +118,7 @@
     }
 
     .tab-content .sub-text {
-        width: 188px;
+        width: 162px;
         height: 19px;
         text-align: left;
         font: normal normal normal 16px/19px 'Lato Regular';
@@ -164,10 +164,14 @@
     }
 
     .group-1 > .sub-text {
-        top: 195.94px;
+        top: 176.94px;
         left: 137px;
     }
 
+    .panel-1 > .group-1 > .sub-text {
+        top: 195.94px;
+        left: 137px;
+    }
 
     /************************* Group 2 ***********************************/
     .group-2 {
@@ -214,6 +218,11 @@
     }
 
     .group-2 > .sub-text {
+        top: 138.94px;
+        left: 162px;
+    }
+
+    .panel-3 > .group-2 > .sub-text {
         top: 118.94px;
         left: 162px;
     }
@@ -256,6 +265,11 @@
 
     .group-3 > .sub-text {
         top: 69px;
+        left: 127px;
+    }
+
+    .panel-3 > .group-3 > .sub-text {
+        top: 74px;
         left: 127px;
     }
 </style>
