@@ -118,7 +118,7 @@
     }
 
     .tab-content .sub-text {
-        width: 162px;
+        /* width: 162px; */
         height: 19px;
         text-align: left;
         font: normal normal normal 16px/19px 'Lato Regular';
