@@ -25,6 +25,7 @@
 
 
                 // activate new tabs and panel
+
                 event.target.classList.add('active');
 
                 let classString = event.target.getAttribute('data-target');

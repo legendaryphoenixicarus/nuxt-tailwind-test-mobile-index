@@ -27,7 +27,7 @@
 
         /* UI Properties */
         text-align: center;
-        font: normal normal normal 42px/50px Lato;
+        font: normal normal 500 42px/50px 'Lato Medium';
         letter-spacing: 1.26px;
         color: #2D3748;
         opacity: 1;

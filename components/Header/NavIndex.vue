@@ -1,5 +1,5 @@
 <template>
-  <div class="nav-index fixed z-10">
+  <div class="nav-index fixed z-40">
     <ButtonOnlyText />
   </div>
 </template>

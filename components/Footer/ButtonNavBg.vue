@@ -1,5 +1,5 @@
 <template>
-    <div class="button-nav-bg fixed">
+    <div class="button-nav-bg fixed z-40">
         <ButtonPrimary />
     </div>
 </template>

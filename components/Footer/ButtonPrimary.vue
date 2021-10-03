@@ -23,7 +23,7 @@
         height: 17px;
 
         text-align: center;
-        font: normal normal 600 14px/17px Lato;
+        font: normal normal 600 14px/17px 'Lato Light';
         letter-spacing: 0.84px;
         color: #E6FFFA;
         opacity: 1;

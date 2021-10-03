@@ -50,7 +50,7 @@
         height: 17px;
 
         text-align: center;
-        font: normal normal 600 14px/17px Lato;
+        font: normal normal bold 14px/17px 'Lato Medium';
         letter-spacing: 0.84px;
         opacity: 1;
     }
@@ -70,7 +70,7 @@
         height: 17px;
 
         text-align: center;
-        font: normal normal 600 14px/17px Lato;
+        font: normal normal bold 14px/17px 'Lato Medium';
         letter-spacing: 0.84px;
         opacity: 1;
     }
@@ -90,7 +90,7 @@
         height: 17px;
 
         text-align: center;
-        font: normal normal bold 14px/17px Lato;
+        font: normal normal bold 14px/17px 'Lato Medium';
         letter-spacing: 0.84px;
         opacity: 1;
     }

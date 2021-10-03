@@ -54,10 +54,34 @@
                 <div class="image absolute"></div>
             </div>
         </div>
+        <div class="circle-1 z-20"></div>
+        <div class="circle-3 z-0"></div>
     </div>
 </template>
 
 <style>
+    #panels > .circle-1 {
+        position: absolute;
+        top: 908px;
+        left: -34px;
+        width: 208px;
+        height: 208px;
+        border-radius: 50%;
+        background: #F7FAFC 0% 0% no-repeat padding-box;
+        opacity: 0.5;
+    }
+
+    #panels > .circle-3 {
+        position: absolute;
+        top: 1410px;
+        left: -54px;
+        width: 304px;
+        height: 303px;
+        border-radius: 50%;
+        background: #F7FAFC 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
     .tab-content {
         display: none;
         /* top: 781px; */
@@ -76,20 +100,26 @@
         height: 156px;
         text-align: center;
 
-        font: normal normal normal 130px/156px Lato;
+        font: normal normal normal 130px/156px 'Lato Regular';
         letter-spacing: 0px;
         color: #718096;
         opacity: 1;
+        z-index: 30;
+    }
+
+    .tab-content .image {
+        z-index: 30;    
     }
 
     .tab-content .sub-text {
-        width: 183px;
+        width: 188px;
         height: 19px;
         text-align: left;
-        font: normal normal normal 16px/19px Lato;
+        font: normal normal normal 16px/19px 'Lato Regular';
         letter-spacing: 0.47px;
         color: #718096;
         opacity: 1;
+        z-index: 30;
     }
 
     .tab-panel-header {
@@ -98,7 +128,7 @@
         width: 280px;
         height: 50px;
         text-align: center;
-        font: normal normal normal 21px/25px Lato;
+        font: normal normal 500 21px/25px 'Lato Medium';
         letter-spacing: 0px;
         color: #4A5568;
         opacity: 1;
@@ -141,6 +171,7 @@
         height: 370px;
         background: transparent linear-gradient(134deg, #E6FFFA 0%, #EBF4FF 100%) 0% 0% no-repeat padding-box;
         opacity: 1;
+        z-index: 10;
     }
 
     .panel-1 > .group-2 > .image {
@@ -177,7 +208,7 @@
     }
 
     .group-2 > .sub-text {
-        top: 138.94px;
+        top: 118.94px;
         left: 162px;
     }
 
