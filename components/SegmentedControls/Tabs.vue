@@ -2,13 +2,13 @@
     <div class="tab-controls relative overflow-hidden">
         <nav class="tabs relative">
           <input type="radio" id="tab-1" name="tabs" data-target="panel-1" class="tab absolute appearance-none" checked />
-          <label for="tab-1" class="relative z-10">Arbeitnehmer</label>
+          <label for="tab-1" class="absolute z-10">Arbeitnehmer</label>
 
           <input type="radio" id="tab-2" name="tabs" data-target="panel-2" class="tab absolute appearance-none" />
-          <label for="tab-2" class="relative z-10">Arbeitgeber</label>
+          <label for="tab-2" class="absolute z-10">Arbeitgeber</label>
 
           <input type="radio" id="tab-3" name="tabs" data-target="panel-3" class="tab absolute appearance-none" />
-          <label for="tab-3" class="relative z-10">Temporärbüro</label>
+          <label for="tab-3" class="absolute z-10">Temporärbüro</label>
 
           <div class="absolute transform transition-transform tab-slider"></div>
         </nav>
@@ -41,17 +41,35 @@
       border-radius: 12px 0px 0px 12px;
   }
 
-  .tab:checked + label {
-      color: #E6FFFA;
-  }
-
-  .tabs label {
+  #tab-1 + label {
       top: 12px;
       left: 32px;
       color : #319795;
       font: normal normal 600 14px/17px 'Lato Light';
       letter-spacing: 0.84px;
       opacity: 1;
+  }
+
+  #tab-2 + label {
+      top: 12px;
+      left: 200px;
+      color : #319795;
+      font: normal normal 600 14px/17px 'Lato Light';
+      letter-spacing: 0.84px;
+      opacity: 1;
+  }
+
+  #tab-3 + label {
+      top: 12px;
+      left: 350px;
+      color : #319795;
+      font: normal normal 600 14px/17px 'Lato Light';
+      letter-spacing: 0.84px;
+      opacity: 1;
+  }  
+
+  .tab:checked + label {
+      color: #E6FFFA;
   }
 
   #tab-1 {
@@ -70,7 +88,7 @@
   #tab-3 {
       left: 320px;
       width: 160px;
-      height: 40px;
+      height: 40px; 
       border-radius: 0px 12px 12px 0px;
       /* opacity: 1; */
   }
