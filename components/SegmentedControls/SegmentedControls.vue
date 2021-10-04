@@ -22,9 +22,9 @@
             function onTabClick(event) {
                 // deactivate existing active tabs and panel
 
-                for (let i = 0; i < tab.length; i++) {
-                    tab[i].classList.remove("active");
-                }
+                // for (let i = 0; i < tab.length; i++) {
+                //     tab[i].classList.remove("active");
+                // }
 
                 for (let i = 0; i < panel.length; i++) {
                     panel[i].classList.remove("active");
@@ -42,7 +42,7 @@
                     classString = target.getAttribute('data-target');
                 }
 
-                target.classList.add('active');
+                // target.classList.add('active');
 
                 document.getElementById('panels').getElementsByClassName(classString)[0].classList.add("active");
 
